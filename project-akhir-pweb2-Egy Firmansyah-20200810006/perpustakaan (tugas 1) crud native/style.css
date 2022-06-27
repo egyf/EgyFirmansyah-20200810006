@@ -1,0 +1,365 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+
+
+/* awal index */
+
+body {
+   font-family: sans-serif;
+   font-size: 13px;
+   color: black;
+}
+
+.pagination {
+   display: inline-block;
+   margin-left: 10px;
+   margin-top: 5px;
+}
+
+.pagination a {
+   color: black;
+   float: left;
+   padding: 8px 16px;
+   text-decoration: none;
+}
+
+.pagination a.active {
+   background-color: #4caf50;
+   color: white;
+   border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+   background-color: #ddd;
+   border-radius: 5px;
+}
+
+#container {
+   width: 100%;
+   margin: 0px auto;
+   border: 1px solid #c4c4c4;
+   background-color: #c4c4c4;
+}
+
+#header {
+   width: 100%;
+   height: 100px;
+   background-color: #e9e9e9;
+}
+
+#logo-perpustakaan-container {
+   float: left;
+   width: 6%;
+   height: 80%;
+   padding: 8px;
+}
+
+#logo-perpustakaan {
+   width: 80px;
+   height: 80px;
+   border: 2px solid #ffffff;
+}
+
+#nama-alamat-perpustakaan-container {
+   float: left;
+   width: 90%;
+   padding: 10px;
+}
+
+.nama-alamat-perpustakaan {
+   float: left;
+   width: 100%;
+   padding: 6px;
+   text-align: center;
+}
+
+#header2 {
+   width: 15.8%;
+   height: 32px;
+   background-color: #88b77b;
+   color: white;
+   font-weight: bold;
+}
+
+#nama-user {
+   float: left;
+   color: white;
+   padding: 6px;
+}
+
+#sidebar {
+   float: left;
+   width: 15.8%;
+   height: 100vh;
+   background-color: #e9e9e9;
+}
+
+#sidebar ul {
+   list-style: none;
+}
+
+#sidebar a:link,
+#sidbar a:visited {
+   color: black;
+   text-decoration: none;
+   display: block;
+   padding: 6px;
+}
+
+#sidebar a:hover {
+   background-color: #919191;
+}
+
+.label-navigasi {
+   background-color: #88b77b;
+   padding: 6px;
+   color: white;
+   font-weight: bold;
+}
+
+#content-container {
+   float: left;
+   width: 83.8%;
+   background-color: #ffffff;
+}
+
+#footer {
+   width: 99.4%;
+   height: 20px;
+   clear: both;
+   text-align: center;
+   padding: 4px;
+   background-color: #7cb342;
+   color: #ffffff;
+}
+
+/* akhir index.php */
+
+
+/* awal pages */
+#label-page {
+   margin-top: 6px;
+   margin-bottom: 6px;
+   margin-left: 10px;
+   border: 2px solid #c4c4c4;
+   padding: 4px;
+   width: 97.8%;
+}
+
+#label-page-beranda {
+   border: 2px solid #7cb342;
+   margin-left: 10px;
+   margin-bottom: 39px;
+   margin-top: 8px;
+   font-size: 13px;
+   padding-top: 4px;
+   /* text-align: center; */
+}
+
+.print {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   float: right;
+   padding-bottom: 10px;
+}
+
+.foto {
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+   padding-left: 11%;
+}
+
+#content {
+   float: left;
+   width: 96.8%;
+   min-height: 454px;
+   /* background-image: ; */
+   border: 2px solid #c4c4c4;
+   padding: 10px;
+   margin-bottom: 6px;
+   margin-left: 10px;
+}
+
+#beranda-judul {
+   text-align: center;
+   /* background-color: ; */
+}
+
+#beranda-konten {
+   text-align: center;
+   padding-top: 140px;
+   color: #32CD32;
+}
+
+.tombol {
+   border-radius: 4px;
+   font-size: 12px;
+   text-decoration: none;
+   background-color: #f1f1f1;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   padding-left: 5px;
+   padding-right: 5px;
+   border: 1px solid #01597e;
+   color: black;
+   margin-bottom: 5px;
+}
+
+.tombol-anggota {
+   border-radius: 4px;
+   font-size: 12px;
+   text-decoration: none;
+   background-color: #f1f1f1;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   padding-left: 5px;
+   padding-right: 5px;
+   border: 1px solid #01597e;
+   color: black;
+   margin-bottom: 5px;
+}
+
+.tombol-opsi-container-anggota {
+   float: left;
+   margin-top: 1px;
+}
+
+.tombol-opsi-container-peminjaman {
+   float: left;
+   /* margin-top: 9px; */
+}
+
+.tombol-opsi-container-buku {
+   float: left;
+}
+
+.tombol-opsi-container-anggota a:hover {
+   background-color: #88b77b;
+   color: #FFF;
+   font-weight: bold;
+}
+
+.tombol-opsi-container-buku a:hover {
+   background-color: #88b77b;
+   color: #FFF;
+   font-weight: bold;
+}
+
+.tombol-opsi-container-peminjaman a:hover {
+   background-color: #88b77b;
+   color: #FFF;
+   font-weight: bold;
+}
+
+
+#tombol-tambah-container {
+   margin-bottom: 1px;
+   /* margin-top: 30px; */
+}
+
+#tombol-tambah-container a:hover {
+   background-color: #c4c4c4;
+}
+
+#tabel-tampil {
+   border: 1px solid #c4c4c4;
+   width: 100%;
+}
+
+#tabel-tampil tr:nth-child(odd) {
+   background-color: #f1f1f1;
+}
+
+#tabel-tampil tr th {
+   background-color: #7cb342;
+   color: #ffffff;
+   padding: 4px;
+   text-align: left;
+}
+
+#tabel-tampil td {
+   padding: 4px;
+}
+
+#label-tampil-no {
+   width: 30px;
+}
+
+#label-opsi {
+   width: 215px;
+   font-weight: bold;
+}
+
+#label-opsi-buku {
+   width: 95px;
+   font-weight: bold;
+}
+
+#label-opsi-anggota {
+   width: 160px;
+   font-weight: bold;
+}
+
+#label-opsi2 {
+   width: 82px;
+   font-weight: bold;
+}
+
+#label-opsi3 {
+   width: 166px;
+   font-weight: bold;
+}
+
+.tombol-opsi-container {
+   float: left;
+   margin-top: 9px;
+}
+
+.tombol-opsi-container a:hover {
+   background-color: #c4c4c4;
+}
+
+#tabel-input {
+   width: 100%;
+}
+
+.label-formulir {
+   width: 12%;
+   height: 36px;
+   margin: 20px;
+}
+
+.isian-formulir {
+   width: 81%;
+   padding: 4px;
+   width: 99.8%;
+}
+
+.isian-formulir2 {
+   width: 78%;
+   padding: 4px;
+   width: 20%;
+}
+
+.label-formulir2 {
+   width: 100%;
+   height: 26px;
+   margin: 20px;
+   padding-left: 16px;
+   font-weight: bold;
+}
+
+.isian-formulir-border {
+   border: 1px solid #c4c4c4;
+}
+
+.warna-formulir-disabled {
+   background-color: #f1f1f1;
+}
+
+/* akhir pages */
